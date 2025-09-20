@@ -6,21 +6,6 @@ This project builds a Logistic Regression model to optimize ad targeting for a s
 
 By analyzing user behavior, the model predicts whether a user is likely to engage with a particular ad. Features like Age and Estimated Salary are used because older, wealthier users tend to engage more with the ad.
 
-The model helps businesses:
-
-Display ads strategically to the most promising users
-
-Maximize click-through rates (CTR)
-
-Improve ad campaign efficiency and ROI
-
-Logistic Regression:
-
-A supervised learning classification algorithm
-
-Predicts a binary outcome (e.g., purchased or not purchased)
-
-Outputs probabilities that can be converted into class labels using a threshold (usually 0.5)
 
 # Dataset
 
@@ -41,9 +26,7 @@ The dataset contains the following columns:
 1.Data Preprocessing
 
   Encode categorical features (e.g., Gender → 0/1)
-
   Handle missing values (if any)
-
   Feature scaling for Age and EstimatedSalary
 
 2.Train-Test Split
@@ -53,13 +36,11 @@ The dataset contains the following columns:
 3.Model Training
 
   Train a Logistic Regression classifier
-
   Use the model to predict the likelihood of a user purchasing the ad
 
 4.Evaluation
 
   Accuracy, Confusion Matrix, Precision, Recall, F1-score
-
   Visualize decision boundary to understand model predictions
 
 5.Prediction
